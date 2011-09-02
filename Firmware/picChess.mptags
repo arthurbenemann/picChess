@@ -1,0 +1,713 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADC_RES::4096	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.h	21;"	d	line:21
+AVERAGE::32	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.c	26;"	d	line:26	file:
+AlphaBeta	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	172;"	p	line:172	signature:( int depth, int alpha, int beta )
+AlphaBeta	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	19;"	f	line:19	signature:( int depth, int alpha, int beta )
+AudioBuf	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	36;"	v	line:36
+AudioBuf_SIZE::(sizeof(AudioBuf)/sizeof(Audio	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	40;"	d	line:40	file:
+AudioPtr	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	43;"	v	line:43
+BAUDRATEREG::(((GetPeripheralClock)-(4*BRAT	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	34;"	d	line:34	file:
+BAUD_ACTUAL::((GetPeripheralClock)/(4*(BAUD	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	35;"	d	line:35	file:
+BAUD_ERROR::((BAUD_ACTUAL>BRATE)?BAUD_ACTU	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	37;"	d	line:37	file:
+BAUD_ERROR_PERCENT::((BAUD_ERROR*100+BRATE/2)/BRAT	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	38;"	d	line:38	file:
+BKING_POS::0x74	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	88;"	d	line:88
+BKSP::0x8	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	12;"	d	line:12
+BLACK_POS::0x40	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	84;"	d	line:84
+BOARD_SIZE::128	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	41;"	d	line:41
+BRATE::115200	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	11;"	d	line:11
+BREAKCODE::0xf0	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	30;"	d	line:30	file:
+BSPP::(P)(board[(unsigned)board[P]])	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	124;"	d	line:124
+BSPT::(P)((unsigned)board[P]+DELTA_T	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	127;"	d	line:127
+BSType	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	56;"	f	line:56	signature:(int pos)
+BSType	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	147;"	p	line:147	signature:(int)
+BWRP_WRPROTECT_OFF	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	46;"	v	line:46
+Black::1	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	81;"	d	line:81
+BoardStatus	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	32;"	v	line:32
+CAPS::0x58	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	19;"	d	line:19
+CASTLE_ALL::0x0F	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	69;"	d	line:69
+CASTLE_BK::0x08	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	64;"	d	line:64
+CASTLE_BQ::0x02	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	61;"	d	line:61
+CASTLE_COLOR::0x0A	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	66;"	d	line:66
+CASTLE_COLOR_W::0x05	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	67;"	d	line:67
+CASTLE_K::0x0C	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	65;"	d	line:65
+CASTLE_NONE::0x00	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	68;"	d	line:68
+CASTLE_Q::0x03	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	62;"	d	line:62
+CASTLE_WK::0x04	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	63;"	d	line:63
+CASTLE_WQ::0x01	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	60;"	d	line:60
+CHESS	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	61;"	e	line:61	file:
+CLOCK	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	61;"	e	line:61	file:
+COL_MASK::0x07	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	94;"	d	line:94
+COMPILER_HITECH_PICC18	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	68;"	d	line:68
+COMPILER_MPLAB_C18	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	61;"	d	line:61
+COMPILER_MPLAB_C30	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	72;"	d	line:72
+COMPILER_MPLAB_C30	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	76;"	d	line:76
+COMPILER_MPLAB_C30	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	80;"	d	line:80
+COMPILER_MPLAB_C30	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	84;"	d	line:84
+COMPILER_MPLAB_C30	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	88;"	d	line:88
+COMPILER_MPLAB_C30	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	92;"	d	line:92
+COMPILER_MPLAB_C30	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	95;"	d	line:95
+COMPILER_MPLAB_C32	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	109;"	d	line:109
+CURSOR_LINE::(9)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	76;"	d	line:76	file:
+CURSOR_MASK::0x3FFC	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	40;"	d	line:40
+CURSOR_X::(PROMO_X0+13)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	74;"	d	line:74	file:
+CURSOR_Y::(PROMO_Y0+PROMO_Y-24)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	75;"	d	line:75	file:
+C_HOUR::(C_RAD-30)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	35;"	d	line:35	file:
+C_MARK::(5)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	32;"	d	line:32	file:
+C_MIN::(C_RAD-18)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	34;"	d	line:34	file:
+C_RAD::(60)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	29;"	d	line:29	file:
+C_SEC::(C_RAD-7)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	33;"	d	line:33	file:
+C_X0::(HRES/2)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	30;"	d	line:30	file:
+C_Y0::(10+VRES/2)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	31;"	d	line:31	file:
+Clock80MHz	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	158;"	f	line:158	signature:(void)
+Clock80MHz	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	57;"	p	line:57	file:	signature:(void)
+ClrWdt::(WDTCONSET=_WDTCON_WDTCLR_MASK	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	189;"	d	line:189
+ClrWdt::asm("CLRWDT");	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	168;"	d	line:168
+ClrWdt::{__asm__volatile("clrwdt");}	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	101;"	d	line:101
+CompareMoves::(A,B)(((A).from==(B).from)&&	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	141;"	d	line:141
+Cursor	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	47;"	v	line:47
+CvC	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	14;"	e	line:14	enum:gameType
+CvP	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	14;"	e	line:14	enum:gameType
+DATE_X0::((HRES-FONT_X*8)/2)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	42;"	d	line:42	file:
+DATE_Y0::(TIME_Y0-FONT_Y)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	43;"	d	line:43	file:
+DEAD::0	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	15;"	d	line:15	file:
+DELTA_POINTER::0x08	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	86;"	d	line:86
+DELTA_TYPE::0x20	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	85;"	d	line:85
+DMA_REQ_DAC_R::0x4E	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	27;"	d	line:27	file:
+DOUBLE_BUFFER	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	26;"	d	line:26
+DRAW_SCORE::-20000	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	75;"	d	line:75
+END	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	21;"	e	line:21	file:
+ENTER::0xd	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	13;"	d	line:13
+ESC::0x1b	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	14;"	d	line:14
+F10::0x89	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	41;"	d	line:41
+F11::0x8A	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	42;"	d	line:42
+F12::0x8B	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	43;"	d	line:43
+F1::0x80	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	32;"	d	line:32
+F2::0x81	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	33;"	d	line:33
+F3::0x82	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	34;"	d	line:34
+F4::0x83	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	35;"	d	line:35
+F5::0x84	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	36;"	d	line:36
+F6::0x85	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	37;"	d	line:37
+F7::0x86	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	38;"	d	line:38
+F8::0x87	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	39;"	d	line:39
+F9::0x88	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	40;"	d	line:40
+FALSE::0	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	17;"	d	line:17
+FALSE::0	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	24;"	d	line:24	file:
+FAR	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	187;"	d	line:187
+FAR::__attribute__((far))	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	180;"	d	line:180
+FAR::far	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	156;"	d	line:156
+FONT_X::8	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.h	21;"	d	line:21
+FONT_Y::8	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.h	22;"	d	line:22
+FPWRT_PWR128	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	50;"	v	line:50
+F_OFFS::0x20	D:\Eletronica\PCB\picCHESS\Firmware\VGA\font.h	7;"	d	line:7
+F_SIZE::0x60	D:\Eletronica\PCB\picCHESS\Firmware\VGA\font.h	8;"	d	line:8
+Font8x8	D:\Eletronica\PCB\picCHESS\Firmware\VGA\font.h	11;"	v	line:11
+GET_LEVEL	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	21;"	e	line:21	file:
+GET_TYPE	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	21;"	e	line:21	file:
+GWRP_OFF	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	48;"	v	line:48
+GetInstructionClock::(GetSystemClock/2)	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	6;"	d	line:6
+GetPeripheralClock::(GetSystemClock/2)	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	7;"	d	line:7
+GetSystemClock::(80000000ul)	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	5;"	d	line:5
+HRES::200u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	31;"	d	line:31
+HSyncTris::_RP20R=0x12	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	37;"	d	line:37
+H_BLANK::128u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	43;"	d	line:43	file:
+H_BP::88u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	44;"	d	line:44	file:
+H_FP::40u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	42;"	d	line:42	file:
+H_LN::800u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	45;"	d	line:45	file:
+H_SHIFT::16*4	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	50;"	d	line:50	file:
+H_TOTAL::(H_FP+H_BLANK+H_BP+H_LN)	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	46;"	d	line:46	file:
+ICS_PGD1	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	44;"	v	line:44
+INF_NEG::(-32767)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	73;"	d	line:73
+INF_POS::(-INF_NEG)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	74;"	d	line:74
+ISR_DELAY::24	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	49;"	d	line:49	file:
+Idle::{__asm__volatile("pwrsav#1");}	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	103;"	d	line:103
+InputStr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	48;"	v	line:48
+IsOffBoard::(P)(P&0x88)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	133;"	d	line:133
+IsOnBoard::(P)(!(P&0x88))	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	135;"	d	line:135
+KBDBuf	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	42;"	v	line:42
+KBD_FIFO::16	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.h	21;"	d	line:21
+KBR	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	47;"	v	line:47
+KBW	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	47;"	v	line:47
+KCB	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	46;"	v	line:46
+KCount	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	41;"	v	line:41
+KING_POS::0x04	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	87;"	d	line:87
+KP1::0xD1	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	22;"	d	line:22
+KP2::0xD2	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	23;"	d	line:23
+KP3::0xD3	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	24;"	d	line:24
+KP4::0xD4	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	25;"	d	line:25
+KP5::0xD5	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	26;"	d	line:26
+KP6::0xD6	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	27;"	d	line:27
+KP7::0xD7	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	28;"	d	line:28
+KP8::0xD8	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	29;"	d	line:29
+KP9::0xD9	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	30;"	d	line:30
+KParity	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	41;"	v	line:41
+K_ROOK_PP::0x0F	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	90;"	d	line:90
+LEVEL_CURSOR::(-15)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	55;"	d	line:55	file:
+LEVEL_X0::(HRES-LEVEL_X)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	52;"	d	line:52	file:
+LEVEL_X::120	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	49;"	d	line:49	file:
+LEVEL_Y0::(VRES-LEVEL_Y)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	53;"	d	line:53	file:
+LEVEL_Y::64	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	50;"	d	line:50	file:
+LIFE	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	61;"	e	line:61	file:
+LIST_X0::(BOARD_SIZE+20)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	65;"	d	line:65	file:
+LIST_Y0::(VRES-FONT_Y-2)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	66;"	d	line:66	file:
+LIVE::(!DEAD)	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	16;"	d	line:16	file:
+LM35_AN::0	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	37;"	d	line:37
+LM35_CAL::(((ADC_RES*SENSOR_RES)/(VREF))	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.c	25;"	d	line:25	file:
+LM35_CFG::_PCFG0	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	36;"	d	line:36
+LM35_SCALE::0.1	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.h	23;"	d	line:23
+LOSE_SCORE::INF_NEG	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	77;"	d	line:77
+L_CTRL::0x0	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	17;"	d	line:17
+L_SHFT::0x12	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	18;"	d	line:18
+LastChar	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	43;"	v	line:43
+LineBuf	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	64;"	v	line:64
+MAX_STACK::300	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	97;"	d	line:97
+MOVE	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	54;"	t	line:54
+MOVELIST_SIZE::16	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	39;"	d	line:39
+MS::(_p,_m){*(_p)++=((_m)&7)+'a';*	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	474;"	d	line:474	file:
+NUM::0x0	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	16;"	d	line:16
+NUM_SOUNDS::9	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	13;"	d	line:13
+NVM_Off::(SST25VF_CS=1)	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	45;"	d	line:45	file:
+NVM_On::(SST25VF_CS=0)	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	44;"	d	line:44	file:
+Nop::__builtin_nop	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	100;"	d	line:100
+Nop::asm("NOP");	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	167;"	d	line:167
+Nop::asm("nop")	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	194;"	d	line:194
+OVERF_X0::(HRES-OVERF_X)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	61;"	d	line:61	file:
+OVERF_X::90	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	58;"	d	line:58	file:
+OVERF_Y0::(VRES-OVERF_Y)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	62;"	d	line:62	file:
+OVERF_Y::20	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	59;"	d	line:59	file:
+PI::(3.141592)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	36;"	d	line:36	file:
+PIECE_MASK::0x07	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	91;"	d	line:91
+PLAY	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	21;"	e	line:21	file:
+PP_EMPTY::-1	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	92;"	d	line:92
+PROMO_X0::(HRES-PROMO_X)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	38;"	d	line:38	file:
+PROMO_X::90	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	35;"	d	line:35	file:
+PROMO_Y0::(VRES-PROMO_Y)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	39;"	d	line:39	file:
+PROMO_Y::64	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	36;"	d	line:36	file:
+PS2BIT	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	37;"	e	line:37	file:
+PS2CLK::_IC1R=7	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	19;"	d	line:19
+PS2DAT::_RB8	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	17;"	d	line:17
+PS2DATtris::_TRISB8	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	18;"	d	line:18
+PS2PARITY	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	37;"	e	line:37	file:
+PS2START	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	37;"	e	line:37	file:
+PS2STOP	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	37;"	e	line:37	file:
+PS2State	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	40;"	v	line:40
+PTR_BASE::unsignedlong	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	123;"	d	line:123
+PTR_BASE::unsignedshort	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	126;"	d	line:126
+PTR_BASE::unsignedshort	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	129;"	d	line:129
+PTR_BASE::unsignedshort	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	132;"	d	line:132
+PiecePtr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	125;"	l	line:125
+PiecePtr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	291;"	l	line:291
+PieceSel	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	28;"	m	line:28
+PixelTris::_RP19R=0x07	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	38;"	d	line:38
+PvC	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	14;"	e	line:14	enum:gameType
+PvP	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	14;"	e	line:14	enum:gameType
+Q_ROOK_PP::0x08	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	89;"	d	line:89
+REFRESH_RATE::0xffff	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.h	25;"	d	line:25
+ROM::const	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	165;"	d	line:165
+ROM::const	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	175;"	d	line:175
+ROM::rom	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	160;"	d	line:160
+ROM_PTR_BASE::unsignedlong	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	124;"	d	line:124
+ROM_PTR_BASE::unsignedlong	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	133;"	d	line:133
+ROM_PTR_BASE::unsignedshort	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	127;"	d	line:127
+ROM_PTR_BASE::unsignedshortlong	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	130;"	d	line:130
+ROW_MASK::0x70	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	93;"	d	line:93
+R_SHFT::0x12	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	20;"	d	line:20
+Refill	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	42;"	v	line:42
+Reset::SoftReset	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	188;"	d	line:188
+Reset::asm("RESET");	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	169;"	d	line:169
+Reset::asm("reset")	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	179;"	d	line:179
+SC_CURSOR	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	31;"	e	line:31
+SC_NONE	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	30;"	e	line:30
+SC_SEL	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	32;"	e	line:32
+SC_TEXT	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	33;"	e	line:33
+SEL_RATE::0xffff	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	38;"	d	line:38
+SENSOR_RES::0.01	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.h	22;"	d	line:22
+SPLASH	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	21;"	e	line:21	file:
+SST25VF_CS::_LATB9	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	30;"	d	line:30
+SST25VF_CS_TRIS::_TRISB9	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	29;"	d	line:29
+SST25VF_SCK::_RP23R=11;	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	33;"	d	line:33
+SST25VF_SDI::_SDI2R=22;	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	32;"	d	line:32
+SST25VF_SDO::_RP24R=10;	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	31;"	d	line:31
+SST25_AAIP::0xAD	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	38;"	d	line:38	file:
+SST25_CHIP_ERASE::0x60	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	34;"	d	line:34	file:
+SST25_PPRE::0x2	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	22;"	d	line:22
+SST25_RDSR::0x05	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	35;"	d	line:35	file:
+SST25_READ::0x03	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	36;"	d	line:36	file:
+SST25_SIZE::0x200000	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	24;"	d	line:24
+SST25_SPRE::0x6	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	21;"	d	line:21
+SST25_UNPROTECT::0x00	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	40;"	d	line:40	file:
+SST25_WRDI::0x04	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	32;"	d	line:32	file:
+SST25_WREN::0x06	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	31;"	d	line:31	file:
+SST25_WRITE::0x02	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	37;"	d	line:37	file:
+SST25_WRSR::0x01	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	33;"	d	line:33	file:
+SST5_BUSY::0x01	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	41;"	d	line:41	file:
+START	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	21;"	e	line:21	file:
+SWRP_WRPROTECT_OFF	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	47;"	v	line:47
+S_CHECKMATE::0x00	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	16;"	d	line:16
+S_DAMN::0x01	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	17;"	d	line:17
+S_GETSOME::0x02	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	18;"	d	line:18
+S_HOLY::0x03	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	19;"	d	line:19
+S_NIRVANA::0x04	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	20;"	d	line:20
+S_OFFSPRING::0x05	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	21;"	d	line:21
+S_PIECEOFCAKE::0x06	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	22;"	d	line:22
+S_RHCP::0x07	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	23;"	d	line:23
+S_TUC::0x08	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.h	24;"	d	line:24
+Side	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	30;"	v	line:30
+SideOfBS::(P)(board[P]>BLACK_POS)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	130;"	d	line:130
+Sleep::{__asm__volatile("pwrsav#0");}	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	102;"	d	line:102
+State	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	34;"	m	line:34
+TAB::0x9	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\keymap.h	11;"	d	line:11
+TBoardST	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	45;"	t	line:45
+TCursor	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	35;"	t	line:35
+TEMP_X0::(HRES-FONT_X*7)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	46;"	d	line:46	file:
+TEMP_Y0::(VRES-FONT_Y)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	47;"	d	line:47	file:
+TIME_X0::((HRES-FONT_X*8)/2)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	39;"	d	line:39	file:
+TIME_X0::(HRES-FONT_X*8-2)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	69;"	d	line:69	file:
+TIME_Y0::((C_Y0-C_RAD)/2)	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	40;"	d	line:40	file:
+TIME_Y0::1	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	70;"	d	line:70	file:
+TRUE::!FALSE	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	25;"	d	line:25	file:
+TRUE::1	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	14;"	d	line:14
+TYPE_X0::(HRES-TYPE_X)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	45;"	d	line:45	file:
+TYPE_X::90	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	42;"	d	line:42	file:
+TYPE_Y0::(VRES-TYPE_Y)/2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	46;"	d	line:46	file:
+TYPE_Y::64	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	43;"	d	line:43	file:
+TxTimes	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	69;"	v	line:69
+U2RxPin::_U2RXR=6	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	13;"	d	line:13
+U2TxPin::_RP5R=5	D:\Eletronica\PCB\picCHESS\Firmware\HardwareProfile.h	14;"	d	line:14
+U_MODE::0x8008	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	28;"	d	line:28	file:
+U_MODE::0x8018	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	25;"	d	line:25	file:
+U_STA::0x0400	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	29;"	d	line:29	file:
+U_STA::0x4400	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	26;"	d	line:26	file:
+VA	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	58;"	v	line:58
+VH	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	59;"	v	line:59
+VMap1	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	53;"	v	line:53
+VMap2	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	55;"	v	line:55
+VPtr	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	60;"	v	line:60
+VREF::3.53	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.h	20;"	d	line:20
+VRES::150u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	30;"	d	line:30
+VSync::_LATC5	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	36;"	d	line:36
+VSyncTris::_TRISC5=0X0	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	35;"	d	line:35
+V_BLANK::4u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	36;"	d	line:36	file:
+V_BP::23u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	37;"	d	line:37	file:
+V_FP::1u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	35;"	d	line:35	file:
+V_LN::600u	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	38;"	d	line:38	file:
+V_TOTAL::(V_FP+V_BLANK+V_LN+V_BP)	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	39;"	d	line:39	file:
+VideoPtr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	124;"	l	line:124
+VideoPtr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	290;"	l	line:290
+VideoPtr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	385;"	l	line:385
+VideoPtr	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	47;"	l	line:47
+Vline	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	62;"	v	line:62
+Vtemp	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	97;"	l	line:97
+WIN_SCORE::INF_POS	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	76;"	d	line:76
+White::0	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	80;"	d	line:80
+_DMA2Interrupt	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	106;"	f	line:106	signature:(void)
+_FAR::__attribute__((far))	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	32;"	d	line:32	file:
+_FAR::__attribute__((far))	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	31;"	d	line:31	file:
+_FWDT	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	42;"	v	line:42
+_IC1Interrupt	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	89;"	f	line:89	signature:(void)
+_NOPSV::__attribute__((no_auto_psv))	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	31;"	d	line:31	file:
+_NOPSV::__attribute__((no_auto_psv))	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	33;"	d	line:33	file:
+_NOPSV::__attribute__((no_auto_psv))	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	30;"	d	line:30	file:
+_NOPSV::__attribute__((no_auto_psv))	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	53;"	d	line:53	file:
+_T2Interrupt	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	188;"	f	line:188	signature:(void)
+_USE_RTCC_OUTPUT	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.h	22;"	d	line:22
+__18CXX	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	66;"	d	line:66
+__C32__	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	107;"	d	line:107
+__COMPILER_H	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	56;"	d	line:56
+__attribute__::(a)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	154;"	d	line:154
+_bishopBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	195;"	v	line:195
+_blankBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	274;"	v	line:274
+_kingBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	157;"	v	line:157
+_knightBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	118;"	v	line:118
+_pawnBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	42;"	v	line:42
+_queenBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	234;"	v	line:234
+_rookBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	80;"	v	line:80
+abs::(a)(((a)>0)?(a):-(a))	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	94;"	d	line:94	file:
+announceCheckmate	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	354;"	f	line:354	signature:(void)
+announceCheckmate	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	77;"	p	line:77	signature:(void)
+announceStalemate	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	370;"	f	line:370	signature:(void)
+announceStalemate	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	78;"	p	line:78	signature:(void)
+best	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	178;"	l	line:178
+best	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	76;"	l	line:76
+bishop	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	24;"	e	line:24	enum:pieceCode
+bishopBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	176;"	v	line:176
+blackK	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	40;"	m	line:40
+blackQ	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	38;"	m	line:38
+blankBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	255;"	v	line:255
+board	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	28;"	v	line:28
+buf	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	251;"	l	line:251
+buf	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	103;"	l	line:103
+busyNVM::(readStatusNVM&SST5_BUSY)	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	48;"	d	line:48	file:
+c	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	77;"	l	line:77
+castleTemp	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	323;"	l	line:323
+castleTemp	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	154;"	l	line:154
+castleTemp	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	192;"	l	line:192
+castleTemp	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	48;"	l	line:48
+castleTemp	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	96;"	l	line:96
+checkCastle	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	68;"	f	line:68	signature:(MOVE m)
+checkCastle	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	158;"	p	line:158	signature:(MOVE m)
+checkCastle	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	61;"	p	line:61	file:	signature:(MOVE m)
+checkPromo	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	407;"	f	line:407	signature:(MOVE m)
+checkPromo	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	62;"	p	line:62	file:	signature:(MOVE m)
+chessGame	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	150;"	p	line:150	signature:(unsigned char key)
+chessGame	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	37;"	f	line:37	signature:(unsigned char key)
+chessInit	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	151;"	p	line:151	signature:(void)
+chessInit	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	25;"	f	line:25	signature:(void)
+chessState	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	21;"	v	line:21
+cleanHScreen	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	88;"	f	line:88	signature:(void)
+cleanHScreen	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	43;"	p	line:43	signature:(void)
+clearNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	132;"	f	line:132	signature:(void)
+clearNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	28;"	p	line:28	signature:(void)
+cord	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.h	27;"	t	line:27
+count	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	119;"	l	line:119
+count	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	133;"	l	line:133
+countLiveCells	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	116;"	f	line:116	signature:(int x, int y)
+countLiveCells	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	19;"	p	line:19	file:	signature:(int x, int y)
+cursor	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	428;"	l	line:428
+cursorPos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	322;"	l	line:322
+data	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.c	53;"	l	line:53
+data	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	103;"	l	line:103
+data	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	155;"	l	line:155
+date	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.c	94;"	l	line:94
+ddF_x	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	139;"	l	line:139
+ddF_y	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	140;"	l	line:140
+deep	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	19;"	v	line:19
+deltax	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	98;"	l	line:98
+deltay	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	98;"	l	line:98
+diplayClock	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.h	32;"	p	line:32	signature:(void)
+diplayClock	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	56;"	f	line:56	signature:(void)
+eat	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	52;"	m	line:52
+empty	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	23;"	e	line:23	enum:pieceCode
+endML	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	53;"	v	line:53
+error	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	98;"	l	line:98
+errorOverflow	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	683;"	f	line:683	signature:(void)
+errorOverflow	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	68;"	p	line:68	signature:(void)
+evaluateBoard	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	169;"	p	line:169	signature:(void)
+evaluateBoard	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEvaluation.c	23;"	f	line:23	signature:(void)
+evolve	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	131;"	f	line:131	signature:(void)
+evolve	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	20;"	p	line:20	file:	signature:(void)
+f	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	138;"	l	line:138
+far	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	186;"	d	line:186
+first	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	142;"	l	line:142
+first	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	178;"	l	line:178
+first	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	30;"	l	line:30
+first	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	76;"	l	line:76
+firstML	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	53;"	v	line:53
+flag	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	322;"	l	line:322
+fp	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	49;"	l	line:49
+from	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	50;"	m	line:50
+gameOfLife	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	100;"	f	line:100	signature:(unsigned char key)
+gameOfLife	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.h	11;"	p	line:11	signature:(unsigned char key)
+gameState	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	61;"	v	line:61
+gameType	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	14;"	g	line:14
+genMoves	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	166;"	p	line:166	signature:(unsigned char side)
+genMoves	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	33;"	f	line:33	signature:(unsigned char side)
+genOrder	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	113;"	v	line:113
+getDate	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.c	92;"	f	line:92	signature:(char *str)
+getDate	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.h	30;"	p	line:30	signature:(char *str)
+getGameLevel	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	217;"	f	line:217	signature:(char *level,unsigned char key)
+getGameLevel	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	52;"	p	line:52	signature:(char *level,unsigned char key)
+getGameType	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	186;"	f	line:186	signature:(int *type,unsigned char key)
+getGameType	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	51;"	p	line:51	signature:(int *type,unsigned char key)
+getKey	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	75;"	f	line:75	signature:(void)
+getKey	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.h	30;"	p	line:30	signature:(void)
+getMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	74;"	f	line:74	signature:(MOVE *m, unsigned char key)
+getMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	74;"	p	line:74	signature:(MOVE *m, unsigned char key)
+getPromo	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	424;"	f	line:424	signature:(void)
+getPromo	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	63;"	p	line:63	file:	signature:(void)
+getTemp	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.c	51;"	f	line:51	signature:(void)
+getTemp	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.h	27;"	p	line:27	signature:(void)
+getTime	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.c	69;"	f	line:69	signature:(char *str)
+getTime	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.h	29;"	p	line:29	signature:(char *str)
+getU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	76;"	f	line:76	signature:(void)
+getU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.h	33;"	p	line:33	signature:(void)
+hour	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	77;"	l	line:77
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	130;"	l	line:130
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEvaluation.c	25;"	l	line:25
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	36;"	l	line:36
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	105;"	l	line:105
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	126;"	l	line:126
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	155;"	l	line:155
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	289;"	l	line:289
+i	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	86;"	l	line:86
+i	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	128;"	l	line:128
+i	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	118;"	l	line:118
+i	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	133;"	l	line:133
+i	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.c	53;"	l	line:53
+i	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	48;"	l	line:48
+initBoard	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	43;"	f	line:43
+initBoard	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	152;"	p	line:152	signature:()
+initIO	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	150;"	f	line:150	signature:(void)
+initIO	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	58;"	p	line:58	file:	signature:(void)
+initKBD	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	53;"	f	line:53	signature:(void)
+initKBD	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.h	29;"	p	line:29	signature:(void)
+initLM35	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.c	31;"	f	line:31	signature:(void)
+initLM35	D:\Eletronica\PCB\picCHESS\Firmware\LM35\LM35.h	26;"	p	line:26	signature:(void)
+initNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	60;"	f	line:60	signature:(void)
+initNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	27;"	p	line:27	signature:(void)
+initRTCC	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.c	25;"	f	line:25	signature:(void)
+initRTCC	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.h	28;"	p	line:28	signature:(void)
+initSound	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	71;"	f	line:71	signature:(void)
+initSound	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.h	24;"	p	line:24	signature:(void)
+initSystem	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	130;"	f	line:130	signature:(void)
+initSystem	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	56;"	p	line:56	file:	signature:(void)
+initU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	49;"	f	line:49	signature:(void)
+initU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.h	30;"	p	line:30	signature:(void)
+initVGA	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	113;"	f	line:113	signature:(void)
+initVGA	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	41;"	p	line:41	signature:(void)
+isDirEnt	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	459;"	f	line:459	signature:(unsigned char c)
+isDirEnt	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	59;"	p	line:59	file:	signature:(unsigned char c)
+isEnter::(P)((P==ENTER)||(P==KP5))	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	66;"	d	line:66	file:
+isPlaying	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	62;"	f	line:62	signature:(void)
+isPlaying	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.h	26;"	p	line:26	signature:(void)
+j	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	130;"	l	line:130
+j	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEvaluation.c	25;"	l	line:25
+j	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	36;"	l	line:36
+j	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	86;"	l	line:86
+j	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	118;"	l	line:118
+j	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	133;"	l	line:133
+k	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	130;"	l	line:130
+k	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	36;"	l	line:36
+k	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	105;"	l	line:105
+k	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	51;"	l	line:51
+key	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	66;"	l	line:66
+keyCodes	D:\Eletronica\PCB\picCHESS\Firmware\KEYBOARD\PS2IC.c	146;"	v	line:146
+king	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	23;"	e	line:23	enum:pieceCode
+kingBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	138;"	v	line:138
+kingCastleMask	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	179;"	l	line:179
+kingIsInCheck	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	90;"	f	line:90	signature:(int side)
+kingIsInCheck	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	157;"	p	line:157	signature:(int side)
+kingPos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	70;"	l	line:70
+kingPos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	92;"	l	line:92
+kingPos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	146;"	l	line:146
+kingPos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	57;"	l	line:57
+kingPos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	179;"	l	line:179
+kingPos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	322;"	l	line:322
+knight	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	23;"	e	line:23	enum:pieceCode
+knightBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	99;"	v	line:99
+last	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	142;"	l	line:142
+last	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	178;"	l	line:178
+last	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	30;"	l	line:30
+last	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	76;"	l	line:76
+lastRow	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	288;"	l	line:288
+len	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	299;"	l	line:299
+lineMask	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	409;"	l	line:409
+lineSize::13	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	32;"	d	line:32
+lineU2::putU2('	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.h	28;"	d	line:28
+lixo	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	51;"	l	line:51
+m	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	39;"	l	line:39
+m	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	37;"	l	line:37
+main	D:\Eletronica\PCB\picCHESS\Firmware\mainVGA800x600.C	64;"	f	line:64
+makeCastle	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	21;"	p	line:21	file:	signature:(MOVE m)
+makeCastle	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	55;"	f	line:55	signature:(MOVE m)
+makeMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	161;"	p	line:161	signature:(MOVE m)
+makeMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	29;"	f	line:29	signature:(MOVE m)
+max	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	140;"	l	line:140
+max	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	176;"	l	line:176
+memcmppgm2ram::(a,b,c)memcmp(a,b,c)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	139;"	d	line:139
+memcpypgm2ram::(a,b,c)memcpy(a,b,c)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	141;"	d	line:141
+min	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	77;"	l	line:77
+movCount	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	287;"	l	line:287
+movCount	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	35;"	l	line:35
+moveCursor	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	480;"	f	line:480	signature:(unsigned char c)
+moveCursor	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	58;"	p	line:58	file:	signature:(unsigned char c)
+moveList	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	52;"	v	line:52
+moveStack	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	18;"	v	line:18
+moveStackEnd	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	20;"	v	line:20
+moveStackPtr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	19;"	v	line:19
+moveToSound	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	647;"	f	line:647	signature:(MOVE m)
+moveToSound	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	71;"	p	line:71	signature:(MOVE m)
+moveToStr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	521;"	f	line:521	signature:(MOVE m,char* buf)
+moveToStr	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	73;"	p	line:73	signature:(MOVE m,char* buf)
+movesBishop	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	72;"	v	line:72
+movesKing	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	70;"	v	line:70
+movesKnight	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	69;"	v	line:69
+movesQueen	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	73;"	v	line:73
+movesRook	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	71;"	v	line:71
+negaMax	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	175;"	p	line:175	signature:( int depth )
+negaMax	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	129;"	f	line:129	signature:( int depth )
+pawn	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	23;"	e	line:23	enum:pieceCode
+pawnAdv	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	50;"	l	line:50
+pawnBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	23;"	v	line:23
+persistent	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	185;"	d	line:185
+pieceCode	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	22;"	g	line:22
+pieceColor::(P)(P&BLACK_POS)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	25;"	d	line:25	file:
+pieceIsBlack::(P)(pieceColor(P))	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	26;"	d	line:26	file:
+pieceIsWhite::(P)(!pieceIsBlack(P))	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	27;"	d	line:27	file:
+pieceType	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	83;"	l	line:83
+pieceValue	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	101;"	v	line:101
+playLetter	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	588;"	f	line:588	signature:(char c)
+playSound	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.c	49;"	f	line:49	signature:(int i)
+playSound	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\audio.h	25;"	p	line:25	signature:(int i)
+plotAlgNotation	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	59;"	p	line:59	signature:(void)
+plotAlgNotation	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	153;"	f	line:153
+plotBoard	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	57;"	p	line:57	signature:(void)
+plotBoard	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	84;"	f	line:84
+plotChessSplash	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	67;"	p	line:67	signature:(void)
+plotChessSplash	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	122;"	f	line:122	signature:(void)
+plotCircle	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	60;"	p	line:60	signature:( int x0, int y0, int radius, int color)
+plotCircle	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	136;"	f	line:136	signature:(int x0, int y0, int radius, int color)
+plotClock	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	50;"	p	line:50	file:	signature:(void)
+plotClock	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	73;"	f	line:73	signature:(void)
+plotCursor	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	65;"	p	line:65	signature:(char pos)
+plotCursor	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	383;"	f	line:383	signature:(char pos)
+plotDot	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	49;"	p	line:49	signature:(unsigned x, unsigned y, unsigned color)
+plotDot	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	28;"	f	line:28	signature:(unsigned x, unsigned y, unsigned color)
+plotGameLevelBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	62;"	p	line:62	signature:(int cursorPos)
+plotGameLevelBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	233;"	f	line:233	signature:(int cursorPos)
+plotGameTypeBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	61;"	p	line:61	signature:(int cursorPos)
+plotGameTypeBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	202;"	f	line:202	signature:(int cursorPos)
+plotLine	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	52;"	p	line:52	signature:( int x0, int y0, int x1, int y1, unsigned color)
+plotLine	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	95;"	f	line:95	signature:( int x0, int y0, int x1, int y1,unsigned color)
+plotMoveList	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	58;"	p	line:58	signature:(void)
+plotMoveList	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	101;"	f	line:101	signature:(void)
+plotOverflowBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	63;"	p	line:63	signature:(void)
+plotOverflowBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	264;"	f	line:264	signature:(void)
+plotPiece	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	64;"	p	line:64	signature:(char pos,char piece)
+plotPiece	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	287;"	f	line:287	signature:(char pos,char piece)
+plotPromoBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	60;"	p	line:60	signature:(int cursorPos)
+plotPromoBox	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	171;"	f	line:171	signature:(int cursorPos)
+plotSquare	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	56;"	p	line:56	signature:( int x0, int y0, int x1, int y1, unsigned filled,unsigned color)
+plotSquare	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	66;"	f	line:66	signature:( int x0, int y0, int x1, int y1,unsigned filled,unsigned color)
+plotTime	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	66;"	p	line:66	signature:(void)
+plotTime	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	371;"	f	line:371	signature:(void)
+pos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	21;"	m	line:21
+pos	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	86;"	l	line:86
+posToVideoPtr::(pos)VH+	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	31;"	d	line:31	file:
+promoPieces	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	426;"	l	line:426
+promotion	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	32;"	m	line:32
+publishLevel	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	275;"	f	line:275	signature:(int level)
+publishLevel	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	80;"	p	line:80	signature:(int level)
+publishMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	249;"	f	line:249	signature:(MOVE m)
+publishMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	79;"	p	line:79	signature:(MOVE m)
+pushMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	163;"	p	line:163	signature:(MOVE *m)
+pushMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	25;"	p	line:25	file:	signature:(MOVE *m)
+pushMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	268;"	f	line:268	signature:(MOVE *m)
+pushPawnMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	24;"	p	line:24	file:	signature:(MOVE m, int side)
+pushPawnMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	285;"	f	line:285	signature:(MOVE m, int side)
+putU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	70;"	f	line:70	signature:(int c)
+putU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.h	31;"	p	line:31	signature:(int c)
+putV	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	45;"	f	line:45	signature:(unsigned char c,unsigned char x,unsigned char y)
+putV	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.h	30;"	p	line:30	signature:(unsigned char c,unsigned char x,unsigned char y)
+putsU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.c	82;"	f	line:82	signature:(char *s)
+putsU2	D:\Eletronica\PCB\picCHESS\Firmware\SERIAL\UART2.h	32;"	p	line:32	signature:(char *s)
+putsV	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	30;"	f	line:30	signature:(char *c,unsigned char x,unsigned char y)
+putsV	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.h	31;"	p	line:31	signature:(char *c,unsigned char x,unsigned char y)
+queen	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	24;"	e	line:24	enum:pieceCode
+queenBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	215;"	v	line:215
+queenCastleMask	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	179;"	l	line:179
+randomizeScreen	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	106;"	f	line:106	signature:(int seed, int n)
+randomizeScreen	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.h	12;"	p	line:12	signature:(int seed, int n)
+readBufNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	178;"	f	line:178	signature:(int *buf,int len,long address)
+readBufNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	32;"	p	line:32	signature:(int *buf,int len,long address)
+readDotA	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	47;"	p	line:47	signature:(unsigned x, unsigned y)
+readDotA	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	46;"	f	line:46	signature:(unsigned x, unsigned y)
+readDotH	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	46;"	p	line:46	signature:(unsigned x, unsigned y)
+readDotH	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	54;"	f	line:54	signature:(unsigned x, unsigned y)
+readNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	153;"	f	line:153	signature:(long address)
+readNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	29;"	p	line:29	signature:(long addr)
+readSPI2::(writeSPI2(0xff))	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	47;"	d	line:47	file:
+readStatusNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	101;"	f	line:101	signature:(void)
+readStatusNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	52;"	p	line:52	file:	signature:(void)
+redraw	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	60;"	p	line:60	file:	signature:(void)
+redrawChess	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	320;"	f	line:320	signature:(void)
+redrawChess	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	56;"	p	line:56	signature:(void)
+refreshed	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	58;"	l	line:58	file:
+rom	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	166;"	d	line:166
+rook	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	24;"	e	line:24	enum:pieceCode
+rookBitmap	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSet.h	61;"	v	line:61
+row2	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	50;"	l	line:50
+score	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEvaluation.c	26;"	l	line:26
+score	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	141;"	l	line:141
+score	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	177;"	l	line:177
+score	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	31;"	l	line:31
+score	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	75;"	l	line:75
+searchAlphaBeta	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	173;"	p	line:173	signature:( int depth, int alpha, int beta )
+searchAlphaBeta	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	73;"	f	line:73	signature:( int depth, int alpha, int beta )
+searchNegaMax	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	174;"	p	line:174	signature:( int depth )
+searchNegaMax	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessSearch.c	174;"	f	line:174	signature:( int depth )
+sec	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	77;"	l	line:77
+setRTCC	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.c	39;"	f	line:39	signature:(char *str)
+setRTCC	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.h	31;"	p	line:31	signature:(char *str)
+side	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	70;"	l	line:70
+side	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	409;"	l	line:409
+sideTemp	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	322;"	l	line:322
+soundAdd	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.c	11;"	v	line:11
+soundLengths	D:\Eletronica\PCB\picCHESS\Firmware\AUDIO\sounds.c	12;"	v	line:12
+squareIsBlack::(P)(!squareIsWhite(P))	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	23;"	d	line:23	file:
+squareIsWhite::(P)(((P>>4)+(P&COL_MASK))&0x1)	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	22;"	d	line:22	file:
+st	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	43;"	m	line:43
+startBoard	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessTables.c	76;"	v	line:76
+state	D:\Eletronica\PCB\picCHESS\Firmware\LIFE\gameOfLife.c	133;"	l	line:133
+status	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	53;"	m	line:53
+steep	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	97;"	l	line:97
+str	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	373;"	l	line:373
+str	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	78;"	l	line:78
+strToMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	553;"	f	line:553	signature:(char *str,MOVE *m)
+strToMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	72;"	p	line:72	signature:(char *str,MOVE *m)
+strcatpgm2ram::(a,b)strcat(a,b)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	147;"	d	line:147
+strchrpgm::(a,b)strchr(a,b)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	146;"	d	line:146
+strcmppgm2ram::(a,b)strcmp(a,b)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	140;"	d	line:140
+strcpypgm2ram::(a,b)strcpy(a,b)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	142;"	d	line:142
+strlenpgm::(a)strlen(a)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	145;"	d	line:145
+strncpypgm2ram::(a,b,c)strncpy(a,b,c)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	143;"	d	line:143
+strstrrampgm::(a,b)strstr(a,b)	D:\Eletronica\PCB\picCHESS\Firmware\Compiler.h	144;"	d	line:144
+swapV	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.c	95;"	f	line:95	signature:(void)
+swapV	D:\Eletronica\PCB\picCHESS\Firmware\VGA\VGA.h	42;"	p	line:42	signature:(void)
+t	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.c	41;"	l	line:41
+t	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	68;"	l	line:68
+t	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	97;"	l	line:97
+testAttack	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	128;"	f	line:128	signature:(unsigned char pos,unsigned char color)
+testAttack	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	35;"	p	line:35	file:	signature:(unsigned char pos,unsigned char color)
+testAttack	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	156;"	p	line:156	signature:(unsigned char pos,unsigned char color)
+testMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	104;"	f	line:104	signature:(MOVE m)
+testMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	155;"	p	line:155	signature:(MOVE m)
+testMoveForCheck	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	23;"	p	line:23	file:	signature:(MOVE m,int side)
+testMoveForCheck	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMoveGen.c	320;"	f	line:320	signature:(MOVE m,int side)
+textInput	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	297;"	f	line:297	signature:(char c)
+textInput	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	56;"	p	line:56	file:	signature:(char c)
+time	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clock.c	71;"	l	line:71
+time	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	76;"	l	line:76
+to	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	51;"	m	line:51
+type	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessGame.c	18;"	v	line:18
+type	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessVideo.c	86;"	l	line:86
+unMakeCastle	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	144;"	f	line:144	signature:(MOVE m)
+unMakeCastle	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	22;"	p	line:22	file:	signature:(MOVE m)
+unMakeMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	162;"	p	line:162	signature:(MOVE m)
+unMakeMove	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	120;"	f	line:120	signature:(MOVE m)
+unprotectNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	116;"	f	line:116	signature:(void)
+unprotectNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	51;"	p	line:51	file:	signature:(void)
+updateCastlingRights	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	23;"	p	line:23	file:	signature:(MOVE m)
+updateCastlingRights	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessMakeMove.c	81;"	f	line:81	signature:(MOVE m)
+validSelect	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	395;"	f	line:395	signature:(void)
+validSelect	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	57;"	p	line:57	file:	signature:(void)
+w	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.c	130;"	l	line:130
+waitForEnter	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.c	386;"	f	line:386	signature:(void)
+waitForEnter	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	83;"	p	line:83	signature:(void)
+whiteK	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	39;"	m	line:39
+whiteQ	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessEngine.h	37;"	m	line:37
+writeBufNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	236;"	f	line:236	signature:(int *buf,int len,long address)
+writeBufNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	31;"	p	line:31	signature:(int *buf,int len,long address)
+writeNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	203;"	f	line:203	signature:(char data,long address)
+writeNVM	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.h	30;"	p	line:30	signature:(char data,long address)
+writeSPI2	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	53;"	p	line:53	file:	signature:(int data)
+writeSPI2	D:\Eletronica\PCB\picCHESS\Firmware\NVM\sst25vf016.c	91;"	f	line:91	signature:(int data)
+x	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	23;"	m	line:23
+x	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	75;"	l	line:75
+x	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	141;"	l	line:141
+x	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	99;"	l	line:99
+x	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.h	25;"	m	line:25
+xMod	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.c	48;"	l	line:48
+y	D:\Eletronica\PCB\picCHESS\Firmware\CHESS\chessInterface.h	25;"	m	line:25
+y	D:\Eletronica\PCB\picCHESS\Firmware\CLOCK\clockVideo.c	75;"	l	line:75
+y	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	142;"	l	line:142
+y	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	68;"	l	line:68
+y	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	99;"	l	line:99
+y	D:\Eletronica\PCB\picCHESS\Firmware\VGA\text.h	26;"	m	line:26
+ystep	D:\Eletronica\PCB\picCHESS\Firmware\VGA\graphics.c	100;"	l	line:100

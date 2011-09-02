@@ -1,0 +1,2 @@
+The processor had a RTCC module ( Real Time Clock and Calendar) so let's use it. It's nice to have a clock in the game so i wrote routines to initializate the RTCC, set a date-time, read dat-time.
+But to get a nice visualization i added a routine that displays a analog clock in the screen. It's easy to do the static part of the clock using the graphical functions, and the pointers too by using sin and cosine functions from the standart library 'math.h'. The current temperature is also show in  the mode of operation.

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/05/25 15:34:25.035.dproj,D:\Eletronica\PCB\picCHESS\waveBurner\waveaudio\Demo\Wave Player\WavePlayer.dproj=D:\Eletronica\PCB\picCHESS\waveBurner\waveBurner.dproj</Transaction>
+    <Transaction>2011/05/25 15:34:35.735.pas,D:\Eletronica\PCB\picCHESS\waveBurner\waveaudio\Demo\Wave Player\Main.pas=D:\Eletronica\PCB\picCHESS\waveBurner\Main.pas</Transaction>
+    <Transaction>2011/05/25 15:34:35.736.dfm,D:\Eletronica\PCB\picCHESS\waveBurner\waveaudio\Demo\Wave Player\Main.dfm=D:\Eletronica\PCB\picCHESS\waveBurner\Main.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

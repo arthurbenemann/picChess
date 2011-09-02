@@ -1,0 +1,18 @@
+The serial, temperature and keybord routines are simple, just some input output routines. A smal overview of this functions is presented below , for more information you can look at the code or ask me.
+
+Temperature Routine
+
+There is just one function readTemp() that uses the adc to get a value from the LM35 sensor.This value is then Scaled to get a 10 couts per ºC integer that represents the current temperature.
+
+Serial Routine
+
+Just used to send characteres or string via the RS232 connection to a pc, mainly used for debugging.
+
+Keyboard
+
+This routine is fully indepent using it's self interruptions to handle the keyboard comunnication. Data sent by the keyboard is decoded and processed in this module and the values are saved in a circular FIFO buffer.The main function just need to use getKey to receive the last key pressed. 
+
+Non Volatile Memory
+
+The SST25 memory chip is needed to store the sound used by the chess game. It has a SPI interface so an SPI module is used.
+The comunnication is straightfoward as explained in the datasheed.Some functions are added to encapsulate the memory chip, these are the initialization, byteRead, blockRead, byteWrite, blockWrite, chipErase, the name is self-explanatory. Most of the time the chip is just read in blocks to refil the audio buffer and that's all there is just a call to readBlock in  the audio routine. 

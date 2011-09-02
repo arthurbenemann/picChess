@@ -1,0 +1,20 @@
+For the hardware the main challenge is to select a processor with power to handle the audio and video, and still have enough power to run the chess engine. The most powerful micro that i had at hand was a DSPIC33F128MC804 from microchip, that i bought to start playing around with the DSPIC33F family. And this seemed a good project to do this.
+
+I know that this micro was supposed to be used for motor control, it has all those nice peripherals and the DSP instruction , but let's do not use this stuff now. The things that are interesting are the SPI module that can go up to 10MHz, 40 MIPS core, 8 DMA channels, 4 Output Compare modules, audio DAC. 
+
+If i don't know what is DMA its a feature that allows some peripherals to transfer memory  to or from the data memory without CPU intervention. (wiki reference)
+
+So with the processor chosen the rest it's straight forward.
+Keyboard  PS2 connection is as simple as two resistor just for precaution (the 5v input pins of the micro must be used).
+Serial RS232 using a ST232  as transceiver, no interface needed for 3v3.
+The temperature sensor , a LM35 (10mV/ºC) , just need a low pass filter in the output. External
+SST25VF016B Flash memory comunnicate via SPI and is 3v3 so just a direct connection, two resistor are added just in case there is a software problem and two inputs accidentally are connected together.
+Audio output from the DAC it's a 0.7v peak signal. Amplification and ac coupling are made by a capacitor and a LM380 in the typical application from the datasheet, it's capable of outputting 2W with low distortion.
+VGA signal its composed of 2 TTL signal, just a resistor for interfacing, and three analog RGB signals. The input impedance of a monitor is 75 Ohms so just a resistor would fit, but the signal must have a 0,7 amplitude for full intensity in the screen, by Ohms law this gives 9.3mA more than the maximum current of the processor. A 74HCT14 inversor gives the current gain.
+
+The power supply has three output rails. A 5V regulated by a 7805, for the high voltage chips. A 3v3 rail powers the processor and the flash memory, to get 3v3 a LM317 is used just as described in the datasheet. The amplifier is connected to the unregulated supply because it needs the higher voltage to power the speaker.
+
+I designed little modules to plug in a bread board  so they can be reused. All these modules are  in the project files.Some i have built in a pre drilled pcb so there are no files, but these are simple to be made.
+
+
+Below are  pictures of the project mounted in my breadboard.

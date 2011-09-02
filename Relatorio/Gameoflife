@@ -1,0 +1,8 @@
+The project was asking me to include the Conways game of life when i was getting to the end. Just a few lines of code the game was working, thats the magic of C language. I can be run any time in the game it just modyfiys the video buffer.
+If you don't now what is this here is a wiki article,  you start with a parent in the screnn and let it evolt folowing these rules:
+
+
+( a live cell is a white pixel, a dead is black)
+
+
+It's realy nice to see the gliders showing up from random star positions.
