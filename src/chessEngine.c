@@ -46,9 +46,6 @@ void initBoard()
 	BoardStatus.Castle = CASTLE_ALL;			// Both player can castle in the beggining
 	Side = White;								// White pieces play first			
 	moveStackPtr = moveStack;					// Move stack in the bottom of the pile
-	Cursor.State = SC_NONE;						// Cursor is not show on the screen
-	memset(moveList, 0,sizeof(moveList));		// clear the moveList
-	firstML = 0; endML = 0;						// initilize moveList pointer
 }
 
 //-------------------- BSType ----------------------

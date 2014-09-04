@@ -12,7 +12,6 @@
 //-------------------------------------------------
 
 #include "chessEngine.h"
-#include "chessInterface.h"		// interfacing functions ( overflow)
 
 //---------------------------------- VARIABLES -------------------------------------
 MOVE	moveStack[MAX_STACK];	// Moves stack

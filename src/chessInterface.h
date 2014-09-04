@@ -33,42 +33,9 @@ typedef struct
 		SC_TEXT				// Text input
 		} State; 	
 } TCursor;
-
-//----------------------------- CONSTANTS -------------------------------
-#define SEL_RATE		0xffff		// Blinking rate for a selected piece
-#define MOVELIST_SIZE 16			// Max. number of itens in the moves list
-#define CURSOR_MASK	0x3FFC
-#define BOARD_SIZE	128	 // Size of one side of the board, in pixels
-
-//----------------------------- VARIABLES -------------------------------
-extern TCursor	Cursor;					// Cursor
-
-extern MOVE moveList[MOVELIST_SIZE];	// Moves that are show on the screen
-extern int endML,firstML;				// moveList pointer
-
-//----------------------------- FUNCTIONS ------------------------------
-//--- Menus
-int getGameType(int *type,unsigned char key);
-int getGameLevel(char *level,unsigned char key);
-
-
-//--- Plot Functions 
-void redrawChess(void);			
-void plotBoard(void);
-void plotMoveList(void);
-void plotAlgNotation(void);
-void plotPromoBox(int cursorPos);
-void plotGameTypeBox(int cursorPos);
-void plotGameLevelBox(int cursorPos);
-void plotOverflowBox(void);
-void plotPiece(char pos,char piece);
-void plotCursor(char pos);
-void plotTime(void);
-void plotChessSplash(void);
 void errorOverflow(void);
 
 //---- Move utilits
-void moveToSound(MOVE m);	
 void strToMove(char *str,MOVE *m);
 void moveToStr(MOVE m,char* buf);
 int getMove(MOVE *m, unsigned char key);
