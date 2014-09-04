@@ -1,4 +1,0 @@
-Non Volatile Memory
-
-The SST25 memory chip is needed to store the sound used by the chess game. It has a SPI interface so an SPI module is used.
-The comunnication is straightfoward as explained in the datasheed.Some functions are added to encapsulate the memory chip, these are the initialization, byteRead, blockRead, byteWrite, blockWrite, chipErase, the name is self-explanatory. Most of the time the chip is just read in blocks to refil the audio buffer and that's all there is just a call to readBlock in  the audio routine. 
