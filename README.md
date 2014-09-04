@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/arthurbenemann/picChess.svg?branch=master)](https://travis-ci.org/arthurbenemann/picChess)
 picChess
 ========
 
