@@ -42,7 +42,7 @@ int chessGame(unsigned char key)
 		default:
 		case START:
 			initBoard();				// initialize the board
-			type = CvC;
+			type = PvC;
 			deep = 3;
 			chessState = PLAY;		// search deep selected, advance game machine
 			return FALSE;
@@ -53,6 +53,7 @@ int chessGame(unsigned char key)
 			   ((Side == Black)&&(type==PvC))  )
 			{							// Computer move
 				m = searchAlphaBeta(deep,INF_NEG,INF_POS);
+				publishMove(m);
 			}
 			else
 			{							// Player move
@@ -63,7 +64,6 @@ int chessGame(unsigned char key)
 			}
 
 			makeMove(m);				// Make the move
-			publishMove(m);				// and publish it
 
 			// Test if game is not finished
 			if(genMoves(Side)==0)		// check if there are no moves
