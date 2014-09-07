@@ -47,7 +47,7 @@ unsigned getPromo(void);
 int getMove(MOVE *m, unsigned char key){
 
 	char buf[10];
-	while(scanf("%s",buf)==0);
+	fgets(buf, 10 , stdin);
 	strToMove(buf,m);
 }
 
