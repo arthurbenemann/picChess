@@ -45,7 +45,10 @@ unsigned getPromo(void);
 //--------------------------------- FUNCTIONS --------------------------------------
 
 int getMove(MOVE *m, unsigned char key){
-	return 0;
+
+	char buf[10];
+	while(scanf("%s",buf)==0);
+	strToMove(buf,m);
 }
 
 //------------- publishMove -------------
