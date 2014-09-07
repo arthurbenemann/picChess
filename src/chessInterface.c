@@ -64,7 +64,7 @@ void publishMove(MOVE m)
 // Alert via serial and display in the video
 void announceCheckmate(void)
 {
-	printf("Checkmate");
+	printf("Checkmate\n");
 }
 
 //------------- announceStalemate ---------------------
@@ -72,7 +72,7 @@ void announceCheckmate(void)
 // Alert via serial and display in the video
 void announceStalemate(void)
 {
-	printf("Stalemate");
+	printf("Stalemate\n");
 }
 
 //---------------- moveToStr ------------
@@ -149,5 +149,5 @@ void strToMove(char *str,MOVE *m)
 // and show a box on the screen
 void errorOverflow(void)
 {
-	printf("OVERFLOWWWWW");
+	printf("OVERFLOWWWWW\n");
 }
