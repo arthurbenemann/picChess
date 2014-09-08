@@ -1,8 +1,9 @@
 #include <stdio.h>
-
+#include <signal.h>
 #include "chessEngine.h"
  
 int main() {
+	signal(SIGINT,SIG_IGN);
 	chessInit();
 
 	while(1){
@@ -10,5 +11,4 @@ int main() {
 			return 0;
 		}
 	}
-    return 0;
 }

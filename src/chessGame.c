@@ -43,7 +43,7 @@ int chessGame(unsigned char key)
 		case START:
 			initBoard();				// initialize the board
 			type = PvC;
-			deep = 3;
+			deep = 6;
 			chessState = PLAY;		// search deep selected, advance game machine
 			return FALSE;
 

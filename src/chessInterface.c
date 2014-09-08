@@ -57,6 +57,7 @@ int getMove(MOVE *m, unsigned char key){
 				}
 			}
 		}
+		printf("\n");
 	}
 	strToMove(buf,m);
 }
@@ -118,8 +119,6 @@ void moveToStr(MOVE m,char* buf)
 			*buf++ = 'n';
 			break;
 	}
-
-	*buf++ = '\n';
     *buf = 0;						// string end
 }
 
