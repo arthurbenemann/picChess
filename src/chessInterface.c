@@ -65,12 +65,13 @@ int getMove(MOVE *m, unsigned char key){
 // send it via serial
 void publishMove(MOVE m)
 {
-	char buf[10];
-
+	char buf[16];
 	// send move via serial
 	moveToStr(m,buf);
-	printf("%s\n",buf);
+	printf("move %s\n",buf);
+	fflush(stdout);
 }
+
 
 //------------- announceCheckmate ---------------------
 // Function is called when a checkmate is made
@@ -118,6 +119,7 @@ void moveToStr(MOVE m,char* buf)
 			break;
 	}
 
+	*buf++ = '\n';
     *buf = 0;						// string end
 }
 
