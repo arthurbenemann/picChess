@@ -45,9 +45,19 @@ unsigned getPromo(void);
 //--------------------------------- FUNCTIONS --------------------------------------
 
 int getMove(MOVE *m, unsigned char key){
-
-	char buf[10];
-	fgets(buf, 10 , stdin);
+	char buf[256];
+	while(1){
+		fgets(buf, 256, stdin);
+		if (buf[0]>='a'&&buf[0]<='h'){
+			if (buf[1]>='1'&&buf[1]<='8'){
+				if (buf[2]>='a'&&buf[2]<='h'){
+					if (buf[3]>='1'&&buf[3]<='8'){
+						break;
+					}
+				}
+			}
+		}
+	}
 	strToMove(buf,m);
 }
 
