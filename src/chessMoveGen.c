@@ -272,7 +272,7 @@ void pushMove(MOVE *m)
 		return;
 	}
 
-	errorOverflow();
+	//errorOverflow();
 	while(1);
 	return;
 }

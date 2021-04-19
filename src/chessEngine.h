@@ -17,6 +17,8 @@
 	#define FALSE 0
 #endif
 
+#include <stdio.h>
+
 //------------------------------- STRUCTS ------------------------------
 // Piece codes
 enum pieceCode{
