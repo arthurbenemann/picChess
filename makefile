@@ -5,3 +5,7 @@ main.out:
 
 clean:
 	rm main.out
+
+test:
+	xboard -fcp fairymax -scp /home/arthurbenemann/picChess/main.out -mg 1 -searchTime 0:03
+
