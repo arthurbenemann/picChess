@@ -81,6 +81,7 @@ MOVE searchAlphaBeta( int depth, int alpha, int beta )
 {
 
 	int score;
+        char pv[255]="";
 	MOVE *first,*last,best;
 	
 	nodeCnt =0;
@@ -132,8 +133,9 @@ MOVE searchAlphaBeta( int depth, int alpha, int beta )
 	// clear moves genereted in the stack for this node
 	moveStackPtr = first;
 	
-    int elapsedTime  = (double)(clock() - t)*100/CLOCKS_PER_SEC; // in centiseconds 
-    printf("%i\t%i\t%i\t%i\ttest\n",depth,score,elapsedTime,nodeCnt); 
+    int elapsedTime  = (double)(clock() - t)*100/CLOCKS_PER_SEC; // in centiseconds
+    moveToStr(best,pv); 
+    printf("%i\t%i\t%i\t%i\t%s\n",depth,score,elapsedTime,nodeCnt,pv); 
     return best;
 }
 
