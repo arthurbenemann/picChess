@@ -166,6 +166,7 @@ void pushMove(MOVE *m);
 
 //--- Move Generator
 int genMoves(unsigned char side);
+int genMovesOrdered(unsigned char side);
 
 //--- Evaluation
 int evaluateBoard(void);

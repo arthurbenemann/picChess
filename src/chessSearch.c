@@ -36,7 +36,7 @@ int AlphaBeta( int depth, int alpha, int beta )
 	
 	// add moves to stack
 	first = moveStackPtr;		// save stack bottom in a pointer
-	if(genMoves(Side)==0)		// fill stack, and check if there are moves
+	if( genMovesOrdered(Side)==0)		// fill stack, and check if there are moves
 	{							// in case of no moves it's a stalemate, or a checkmate
 		if(kingIsInCheck(Side))
 			alpha = LOSE_SCORE;	// This side lose if its king is in check and is with no moves
@@ -91,7 +91,7 @@ MOVE searchAlphaBeta( int depth, int alpha, int beta )
 
 	// add moves to stack
 	first = moveStackPtr;		// save stack bottom in a pointer
-	if(genMoves(Side)==0)		// fill stack, and check if there are moves
+	if(genMovesOrdered(Side)==0)		// fill stack, and check if there are moves
 	{							// in case of no moves it's a stalemate, or a checkmate
 		if(kingIsInCheck(Side))
 			alpha = WIN_SCORE;

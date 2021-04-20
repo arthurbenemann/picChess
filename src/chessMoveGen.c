@@ -23,7 +23,25 @@ int testMoveForCheck(MOVE m,int side);
 int pushPawnMove(MOVE m, int side);
 void pushMove(MOVE *m);
 
+int moveCmp(const void *a, const void *b){
+	MOVE *moveA = (MOVE *)a;
+	MOVE *moveB = (MOVE *)b;
+	return moveA->eat - moveB->eat;
+}
+
+
 //--------------------------------- FUNCTIONS --------------------------------------
+
+int genMovesOrdered(unsigned char side){
+	int genCnt;
+	MOVE *first;
+
+	first = moveStackPtr;
+	genCnt = genMoves(side);
+
+	qsort(first,genCnt,sizeof(MOVE), moveCmp);
+	return genCnt;
+}
 
 //--------------------- genMoves -------------------
 // Generates all valid moves one player in the current
