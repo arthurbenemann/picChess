@@ -13,6 +13,7 @@
 //------------------ INCLUDEs ----------------------------
 #include "chessEngine.h"
 #include "chessInterface.h"		// interfacing functions
+#include <time.h>
 
 //------------------------ Global Variables -----------------------------------
 int type;
@@ -43,7 +44,7 @@ int chessGame(unsigned char key)
 		case START:
 			initBoard();				// initialize the board
 			type = PvC;
-			deep = 5;
+			deep = 30;
 			chessState = PLAY;		// search deep selected, advance game machine
 			return FALSE;
 
@@ -52,7 +53,14 @@ int chessGame(unsigned char key)
 			   ((Side == White)&&(type==CvP))||
 			   ((Side == Black)&&(type==PvC))  )
 			{							// Computer move
-				m = searchAlphaBeta(deep,INF_NEG,INF_POS);
+				clock_t turnend;
+				turnend = clock() + CLOCKS_PER_SEC*10;
+				for(int i=1;i<=deep;i++){
+					m = searchAlphaBeta(i,INF_NEG,INF_POS);
+					if(clock()>turnend)
+						break;
+				}
+
 				publishMove(m);
 			}
 			else
