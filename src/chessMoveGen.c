@@ -12,7 +12,7 @@
 //-------------------------------------------------
 
 #include "chessEngine.h"
-
+#include <stdlib.h>
 //---------------------------------- VARIABLES -------------------------------------
 MOVE	moveStack[MAX_STACK];	// Moves stack
 MOVE	*moveStackPtr;			// first empty entry in the move stack
@@ -23,10 +23,19 @@ int testMoveForCheck(MOVE m,int side);
 int pushPawnMove(MOVE m, int side);
 void pushMove(MOVE *m);
 
+int quickScore(MOVE *m){
+	int score;
+	
+	if(board[m->to]!=empty)
+		score = board[m->to]*queen - board[m->from]; 
+	else
+		score = 0;
+
+	return score;
+}
+
 int moveCmp(const void *a, const void *b){
-	MOVE *moveA = (MOVE *)a;
-	MOVE *moveB = (MOVE *)b;
-	return moveA->eat - moveB->eat;
+	return quickScore((MOVE *)a) - quickScore((MOVE *)b); // a and b reversed so sortingis in descending scores
 }
 
 
@@ -276,6 +285,7 @@ int genMoves(unsigned char side)
 					break;
 			}
 		}// run trough all pieces
+	
 	return movCount;
 }
 
@@ -284,6 +294,7 @@ int genMoves(unsigned char side)
 // returns false if overflow
 void pushMove(MOVE *m)
 {
+	
 	if(moveStackPtr<moveStackEnd)	// check for ovewflow
 	{
 		*moveStackPtr++ = *m;		// else add one entry to the stack
